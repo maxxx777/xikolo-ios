@@ -44,7 +44,7 @@ class VideoSpine : ContentSpine {
     var transcript_url: URL?
     var thumbnail_url: URL?
     var slides_url: URL?
-
+    
     var single_stream: VideoStreamSpine?
     var dual_stream: DualStreamSpine?
 
@@ -61,7 +61,6 @@ class VideoSpine : ContentSpine {
             "summary": Attribute(),
             "duration": Attribute(),
             "transcript_url": URLAttribute(baseURL: URL(string: Brand.BaseURL)!),
-            "thumbnail_url": URLAttribute(baseURL: URL(string: Brand.BaseURL)!),
             "slides_url": URLAttribute(baseURL: URL(string: Brand.BaseURL)!),
             "single_stream": VideoStreamAttribute(),
             "dual_stream": DualStreamAttribute(),
@@ -73,11 +72,21 @@ class VideoSpine : ContentSpine {
 class VideoStreamSpine : CompoundValue {
 
     var hls_url: String?
+    var hd_url: String?
+    var sd_url: String?
+    var hd_size: Int64?
+    var sd_size: Int64?
     var poster_url: String?
 
     init(_ dict: [String: AnyObject]?) {
         if let dict = dict {
             self.hls_url = dict["hls_url"] as? String
+            self.sd_url = dict["sd_url"] as? String
+            self.hd_url = dict["hd_url"] as? String
+
+            self.hd_size = dict["hd_size"] as? Int64
+            self.sd_size = dict["sd_size"] as? Int64
+            
             self.poster_url = dict["poster_image_url"] as? String
         }
     }
@@ -89,6 +98,10 @@ class VideoStreamSpine : CompoundValue {
     func saveToCoreData(_ model: BaseModel, withPrefix prefix: String) {
         let p = prefix + "_"
         model.setValue(hls_url, forKey: p + "hls_url")
+        model.setValue(hd_url, forKey: p + "hd_url")
+        model.setValue(sd_url, forKey: p + "sd_url")
+        model.setValue(hd_size, forKey: p + "hd_size")
+        model.setValue(sd_size, forKey: p + "sd_size")
         model.setValue(poster_url, forKey: p + "poster_url")
     }
 

@@ -35,6 +35,7 @@ class VideoViewController : UIViewController {
             self.performSegue(withIdentifier: "EmbedAVPlayer", sender: self.video)
             self.openSlidesButton.isHidden = self.video?.slides_url == nil
             self.openDownloadsButton.isHidden = false
+            self.openDownloadsButton.titleLabel?.text = "Download \(self.video.single_stream_sd_size)"
 
         }
     }

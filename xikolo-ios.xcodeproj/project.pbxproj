@@ -1303,6 +1303,7 @@
 		3DDE63B41ED412C400651295 /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		3DDE63B81ED4185D00651295 /* MZDownloadManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadManagerViewController.swift; sourceTree = "<group>"; };
 		3DDE63BC1ED4190B00651295 /* MZDownloadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadingCell.swift; sourceTree = "<group>"; };
+		3DDE63C01ED4460100651295 /* xikolo 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "xikolo 4.xcdatamodel"; sourceTree = "<group>"; };
 		3EFE4C53E4D0BE59A3B7D3DC /* Pods-openHPI-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openHPI-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openHPI-iOS/Pods-openHPI-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4571137763FE2C2E161926A3 /* Pods_openSAP_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openSAP_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
@@ -4878,11 +4879,12 @@
 		24597D241CC6CA0D00FB5338 /* xikolo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3DDE63C01ED4460100651295 /* xikolo 4.xcdatamodel */,
 				70A830B11EC7C2560029235D /* xikolo 3.xcdatamodel */,
 				ABC1BF131E79FF8D00DEAF0E /* xikolo 2.xcdatamodel */,
 				24597D251CC6CA0D00FB5338 /* xikolo.xcdatamodel */,
 			);
-			currentVersion = ABC1BF131E79FF8D00DEAF0E /* xikolo 2.xcdatamodel */;
+			currentVersion = 70A830B11EC7C2560029235D /* xikolo 3.xcdatamodel */;
 			path = xikolo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
