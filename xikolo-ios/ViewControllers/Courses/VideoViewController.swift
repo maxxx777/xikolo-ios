@@ -16,6 +16,7 @@ class VideoViewController : UIViewController {
     @IBOutlet weak var titleView: UILabel!
     @IBOutlet weak var descriptionView: UITextView!
     @IBOutlet weak var openSlidesButton: UIButton!
+    @IBOutlet weak var openDownloadsButton: UIButton!
 
     var courseItem: CourseItem!
     var video: Video?
@@ -33,6 +34,8 @@ class VideoViewController : UIViewController {
             }
             self.performSegue(withIdentifier: "EmbedAVPlayer", sender: self.video)
             self.openSlidesButton.isHidden = self.video?.slides_url == nil
+            self.openDownloadsButton.isHidden = false
+
         }
     }
 
@@ -40,6 +43,10 @@ class VideoViewController : UIViewController {
         performSegue(withIdentifier: "ShowSlides", sender: video)
     }
 
+    @IBAction func download(_ sender: UIButton) {
+        performSegue(withIdentifier: "ShowDownloads", sender: video)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
             case "EmbedAVPlayer"?:
