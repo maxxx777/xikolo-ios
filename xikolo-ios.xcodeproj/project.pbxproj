@@ -501,6 +501,12 @@
 		3DDE63B51ED412C400651295 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63B41ED412C400651295 /* DownloadViewController.swift */; };
 		3DDE63B61ED412C400651295 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63B41ED412C400651295 /* DownloadViewController.swift */; };
 		3DDE63B71ED412C400651295 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63B41ED412C400651295 /* DownloadViewController.swift */; };
+		3DDE63B91ED4185D00651295 /* MZDownloadManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63B81ED4185D00651295 /* MZDownloadManagerViewController.swift */; };
+		3DDE63BA1ED4185D00651295 /* MZDownloadManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63B81ED4185D00651295 /* MZDownloadManagerViewController.swift */; };
+		3DDE63BB1ED4185D00651295 /* MZDownloadManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63B81ED4185D00651295 /* MZDownloadManagerViewController.swift */; };
+		3DDE63BD1ED4190B00651295 /* MZDownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63BC1ED4190B00651295 /* MZDownloadingCell.swift */; };
+		3DDE63BE1ED4190B00651295 /* MZDownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63BC1ED4190B00651295 /* MZDownloadingCell.swift */; };
+		3DDE63BF1ED4190B00651295 /* MZDownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE63BC1ED4190B00651295 /* MZDownloadingCell.swift */; };
 		4E2B80A81DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */; };
 		4E2B80A91DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */; };
 		4E2B80AB1DDDE43D0058552D /* CourseDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B80AA1DDDE43D0058552D /* CourseDateCell.swift */; };
@@ -1295,6 +1301,8 @@
 		286D95CC0DA684A15BE8ED6D /* Pods-openSAP-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openSAP-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-openSAP-iOS/Pods-openSAP-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3DDE63B01ED40FFD00651295 /* DiskStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskStatus.swift; sourceTree = "<group>"; };
 		3DDE63B41ED412C400651295 /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		3DDE63B81ED4185D00651295 /* MZDownloadManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadManagerViewController.swift; sourceTree = "<group>"; };
+		3DDE63BC1ED4190B00651295 /* MZDownloadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadingCell.swift; sourceTree = "<group>"; };
 		3EFE4C53E4D0BE59A3B7D3DC /* Pods-openHPI-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openHPI-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openHPI-iOS/Pods-openHPI-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4571137763FE2C2E161926A3 /* Pods_openSAP_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openSAP_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
@@ -1734,6 +1742,8 @@
 			children = (
 				24B651501D3595C100624DBC /* NetworkIndicator.swift */,
 				3DDE63B01ED40FFD00651295 /* DiskStatus.swift */,
+				3DDE63B81ED4185D00651295 /* MZDownloadManagerViewController.swift */,
+				3DDE63BC1ED4190B00651295 /* MZDownloadingCell.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -3079,6 +3089,7 @@
 				24BA41131D3F9B8100E38C2C /* NewsArticleViewController.swift in Sources */,
 				243CE4851D709999007C59B6 /* Enrollment.swift in Sources */,
 				24BA40861D3F9A8D00E38C2C /* BaseModelSpine.swift in Sources */,
+				3DDE63BA1ED4185D00651295 /* MZDownloadManagerViewController.swift in Sources */,
 				AB4A019D1E7EA12C005CD595 /* EnrollmentVisits.swift in Sources */,
 				24BA40F31D3F9B2C00E38C2C /* TableViewResultsControllerDelegateImplementation.swift in Sources */,
 				24BA411D1D3F9B9D00E38C2C /* AppDelegate.swift in Sources */,
@@ -3126,6 +3137,7 @@
 				24BA40A61D3F9ABB00E38C2C /* Video+CoreDataProperties.swift in Sources */,
 				ABC1BF181E7ABDFD00DEAF0E /* EnrollmentProvider.swift in Sources */,
 				24BA40D21D3F9AF100E38C2C /* CourseSectionHelper.swift in Sources */,
+				3DDE63BE1ED4190B00651295 /* MZDownloadingCell.swift in Sources */,
 				24BA40FF1D3F9B3E00E38C2C /* NotificationKeys.swift in Sources */,
 				4E2B82241DDC9DB200559217 /* CourseActivityViewController.swift in Sources */,
 				24BA40DF1D3F9B0100E38C2C /* Routes.swift in Sources */,
@@ -3565,6 +3577,7 @@
 				243CE4831D709999007C59B6 /* Enrollment.swift in Sources */,
 				24597D261CC6CA0D00FB5338 /* xikolo.xcdatamodeld in Sources */,
 				AB8C5B971CDB30FC007547DE /* ProfileTableViewController.swift in Sources */,
+				3DDE63B91ED4185D00651295 /* MZDownloadManagerViewController.swift in Sources */,
 				AB4A019A1E7EA12C005CD595 /* EnrollmentVisits.swift in Sources */,
 				241D4AEC1CC992C300E35B1F /* AbstractCourseListViewController.swift in Sources */,
 				2433A5A61CE635E80060DD98 /* CourseItemProvider.swift in Sources */,
@@ -3612,6 +3625,7 @@
 				24A179F01CCD0B0C0056A8EE /* AbstractAppDelegate.swift in Sources */,
 				24D48E181CCA4FC100E8051E /* Course+CoreDataProperties.swift in Sources */,
 				ABC1BF151E7ABDFD00DEAF0E /* EnrollmentProvider.swift in Sources */,
+				3DDE63BD1ED4190B00651295 /* MZDownloadingCell.swift in Sources */,
 				4E2B82231DDC9DB200559217 /* CourseActivityViewController.swift in Sources */,
 				24A16D8A1CFEF9F800CAD9FE /* VideoProvider.swift in Sources */,
 				24A16D811CFDE6E400CAD9FE /* Quiz.swift in Sources */,
@@ -3710,6 +3724,7 @@
 				ABA0F04D1DF8CD7F0001D88D /* Enrollment+CoreDataProperties.swift in Sources */,
 				ABA0F0651DF8CD9F0001D88D /* Content.swift in Sources */,
 				AB4A01A01E7EA12C005CD595 /* EnrollmentVisits.swift in Sources */,
+				3DDE63BB1ED4185D00651295 /* MZDownloadManagerViewController.swift in Sources */,
 				ABA0F0BB1DF8CE270001D88D /* CoreDataHelper.swift in Sources */,
 				AB5DC4521E0B1FF100B2726C /* NSAttributedString+HTML.swift in Sources */,
 				ABA0F0D31DF8CE5C0001D88D /* PeerAssessmentHelper.swift in Sources */,
@@ -3757,6 +3772,7 @@
 				ABA0F0A21DF8CDFE0001D88D /* CourseProvider.swift in Sources */,
 				ABC1BF1B1E7ABDFD00DEAF0E /* EnrollmentProvider.swift in Sources */,
 				ABA0F0261DF8CCC50001D88D /* AbstractTabContentViewController.swift in Sources */,
+				3DDE63BF1ED4190B00651295 /* MZDownloadingCell.swift in Sources */,
 				ABA0F0231DF8CCBC0001D88D /* ProfileTableViewController.swift in Sources */,
 				ABA0F0781DF8CDC00001D88D /* PeerAssessment.swift in Sources */,
 				ABA0F0DD1DF8CE6B0001D88D /* NewsArticleHelper.swift in Sources */,

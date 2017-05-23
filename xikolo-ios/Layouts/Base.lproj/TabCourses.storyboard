@@ -460,36 +460,6 @@
             </objects>
             <point key="canvasLocation" x="2325" y="0.0"/>
         </scene>
-        <!--Download View Controller-->
-        <scene sceneID="Ng2-DR-7jg">
-            <objects>
-                <viewController id="Yx1-I2-jQH" customClass="DownloadViewController" customModule="openHPI" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oNV-ab-Fz5"/>
-                        <viewControllerLayoutGuide type="bottom" id="doo-r5-kM9"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JyP-t3-miI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="... checking free Space" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-K7-61h">
-                                <rect key="frame" x="16" y="34" width="348" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="freeLabel" destination="hJc-K7-61h" id="os9-L5-cZ1"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="baE-pQ-rkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3885.5999999999999" y="-0.44977511244377816"/>
-        </scene>
         <!--Richtext View Controller-->
         <scene sceneID="M4d-6f-bqM">
             <objects>
@@ -685,13 +655,13 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNM-bF-DvX">
-                                                <rect key="frame" x="154" y="294" width="67" height="30"/>
+                                                <rect key="frame" x="154" y="306" width="67" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="download"/>
                                                 <connections>
                                                     <action selector="download:" destination="5Hh-M9-wy1" eventType="touchUpInside" id="ein-XX-PIk"/>
                                                     <action selector="openSlides:" destination="5Hh-M9-wy1" eventType="touchUpInside" id="JTP-U6-UFY"/>
-                                                    <segue destination="Yx1-I2-jQH" kind="presentation" identifier="ShowDownloads" id="Aix-bD-3Xs"/>
+                                                    <segue destination="Xwd-RX-Xey" kind="showDetail" identifier="ShowDownloads" id="hal-iK-JkN"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1163,6 +1133,76 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dac-fx-jD7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="812" y="-755.17241379310349"/>
+        </scene>
+        <!--Downloading-->
+        <scene sceneID="TTh-sQ-kRw">
+            <objects>
+                <tableViewController id="Xwd-RX-Xey" customClass="DownloadViewController" customModule="openHPI" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="120" sectionHeaderHeight="18" sectionFooterHeight="18" id="5GJ-k8-A2Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="MZDownloadingCell" rowHeight="120" id="jlq-ix-v35" userLabel="MZDownloadingCell" customClass="MZDownloadingCell" customModule="openHPI" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jlq-ix-v35" id="eF0-DM-xAs">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="File Title: Getting info..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLb-eW-iCH" userLabel="Title Label">
+                                            <rect key="frame" x="25" y="6" width="325" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="UJ6-xV-MDL"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eO-rR-0NX" userLabel="Detail label">
+                                            <rect key="frame" x="25" y="26" width="325" height="80"/>
+                                            <string key="text">File Size: Calculating...
+Downloaded: Calculating...
+Speed: Calculating...
+Time Left: Calculating...
+Status: Unknown</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cpl-3Q-6xg">
+                                            <rect key="frame" x="25" y="111" width="325" height="2"/>
+                                        </progressView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="mLb-eW-iCH" firstAttribute="leading" secondItem="eF0-DM-xAs" secondAttribute="leading" constant="25" id="0xK-SV-Rk3"/>
+                                        <constraint firstItem="6eO-rR-0NX" firstAttribute="leading" secondItem="eF0-DM-xAs" secondAttribute="leading" constant="25" id="Fo4-4Y-qKn"/>
+                                        <constraint firstAttribute="bottom" secondItem="cpl-3Q-6xg" secondAttribute="bottom" constant="6.5" id="TUq-Qs-smR"/>
+                                        <constraint firstItem="mLb-eW-iCH" firstAttribute="top" secondItem="eF0-DM-xAs" secondAttribute="top" constant="6" id="Z09-Cz-P9D"/>
+                                        <constraint firstItem="cpl-3Q-6xg" firstAttribute="top" secondItem="6eO-rR-0NX" secondAttribute="bottom" constant="5" id="a4P-33-Epf"/>
+                                        <constraint firstAttribute="trailing" secondItem="mLb-eW-iCH" secondAttribute="trailing" constant="25" id="cjm-CC-RsN"/>
+                                        <constraint firstAttribute="trailing" secondItem="cpl-3Q-6xg" secondAttribute="trailing" constant="25" id="oVU-Vk-9ub"/>
+                                        <constraint firstAttribute="trailing" secondItem="6eO-rR-0NX" secondAttribute="trailing" constant="25" id="pph-z9-aND"/>
+                                        <constraint firstItem="cpl-3Q-6xg" firstAttribute="leading" secondItem="eF0-DM-xAs" secondAttribute="leading" constant="25" id="vgQ-Tc-uhS"/>
+                                        <constraint firstItem="6eO-rR-0NX" firstAttribute="top" secondItem="mLb-eW-iCH" secondAttribute="bottom" id="zKd-SB-Z8D"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="lblDetails" destination="6eO-rR-0NX" id="AqM-wy-5XS"/>
+                                    <outlet property="lblTitle" destination="mLb-eW-iCH" id="6d4-cH-ZRB"/>
+                                    <outlet property="progressDownload" destination="cpl-3Q-6xg" id="XPZ-Lv-doc"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Xwd-RX-Xey" id="2Zh-w0-2Uh"/>
+                            <outlet property="delegate" destination="Xwd-RX-Xey" id="WAW-ja-DVn"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Downloading" id="bMm-Ke-xFi"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P0V-HX-eAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4049" y="1440"/>
         </scene>
     </scenes>
     <resources>

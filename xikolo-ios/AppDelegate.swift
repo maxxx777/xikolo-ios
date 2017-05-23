@@ -15,7 +15,7 @@ class AppDelegate : AbstractAppDelegate {
 
     private static let pinpointKit = PinpointKit(feedbackRecipients: ["openhpi-info@hpi.de"])
     var window: UIWindow? = ShakeDetectingWindow(frame: UIScreen.main.bounds, delegate: AppDelegate.pinpointKit)
-
+    var backgroundSessionCompletionHandler : (() -> Void)?
 
     class func instance() -> AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
