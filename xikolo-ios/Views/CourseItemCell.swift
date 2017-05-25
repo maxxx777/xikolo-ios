@@ -7,14 +7,20 @@
 //
 
 import UIKit
+import NFDownloadButton
 
 class CourseItemCell : UITableViewCell {
 
     @IBOutlet weak var titleView: UILabel!
     @IBOutlet weak var readStateView: UIView!
     @IBOutlet weak var iconView: UIImageView!
-    @IBOutlet weak var downloadButton: UIButton!
+    @IBOutlet weak var downloadButton: NFDownloadButton!
 
+    @IBAction func downloadButtonTrigger(_ sender: NFDownloadButton) {
+        // here we should trigger the download and take care that we receive the download progress
+        sender.downloadPercent = 0.2
+    }
+    
     func configure(_ courseItem: CourseItem) {
         readStateView.backgroundColor = Brand.TintColor
         titleView.text = courseItem.title
@@ -24,10 +30,13 @@ class CourseItemCell : UITableViewCell {
         }
         if courseItem.iconName == "video" {
             downloadButton.isHidden = false
+            //downloadButton.downloadState = .willDownload
+            //downloadButton.downloadPercent = 1
         }else{
             downloadButton.isHidden = true
         }
         readStateView.isHidden = courseItem.visited ?? true
     }
+    
 
 }

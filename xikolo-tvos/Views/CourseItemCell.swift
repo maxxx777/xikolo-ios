@@ -16,6 +16,10 @@ class CourseItemCell : UICollectionViewCell {
     func configure(_ item: CourseItem) {
         titleView.text = item.title
 
+        @IBAction func downloadTrigger(_ sender: NFDownloadButton) {
+        }
+        @IBAction func downloadButton(_ sender: Any) {
+        }
         if let iconName = item.iconName {
             iconView.image = UIImage(named: "item-\(iconName)-160")
         }

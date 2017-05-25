@@ -9,6 +9,11 @@
 import CoreData
 import UIKit
 import PinpointKit
+import Swen
+
+struct DownloadProgressEvent: Event {
+    let id: String
+}
 
 @UIApplicationMain
 class AppDelegate : AbstractAppDelegate {
