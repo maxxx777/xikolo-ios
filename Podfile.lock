@@ -9,6 +9,7 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - Hero (0.3.3)
   - MZDownloadManager (3.2)
+  - NFDownloadButton (0.0.1)
   - ObjectMapper (2.0.0)
   - PinpointKit (0.9):
     - PinpointKit/Core (= 0.9)
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - DZNEmptyDataSet (= 1.8.1)
   - Hero
   - MZDownloadManager
+  - NFDownloadButton (~> 0.0.1)
   - ObjectMapper (= 2.0)
   - PinpointKit (from `https://github.com/Lickability/PinpointKit`, commit `dd5731c`)
   - Result (= 3.1.0)
@@ -58,6 +60,7 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Hero: bee4e762e84185b16a902dd11335c119515bb912
   MZDownloadManager: 463f78e00530f3661a5adea649c1801747cc6165
+  NFDownloadButton: 109e1c5b4e39858e2d4703dad9b89247308c571a
   ObjectMapper: aed2570edabbd3c9b26c939e1cabdb6558f933e0
   PinpointKit: 6d19d08afddfad2753aee95e2a6160f2d8d30764
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
@@ -65,6 +68,6 @@ SPEC CHECKSUMS:
   Spine: 9a5076f732897dc67c0303b4b3d871cfee903efa
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: d6caca7dd9d33673080ea0e9abb640cb69994c1b
+PODFILE CHECKSUM: c6e7f1cc57d0bfb734d3b0e3d59ff806ea0826c3
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

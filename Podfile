@@ -17,6 +17,7 @@ def ios_pods
     pod 'DZNEmptyDataSet', '1.8.1'
     pod 'Hero'
     pod 'MZDownloadManager'
+    pod 'NFDownloadButton', '~> 0.0.1'
 end
 
 target 'openHPI-iOS' do

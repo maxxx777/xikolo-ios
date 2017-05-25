@@ -13,6 +13,7 @@ class CourseItemCell : UITableViewCell {
     @IBOutlet weak var titleView: UILabel!
     @IBOutlet weak var readStateView: UIView!
     @IBOutlet weak var iconView: UIImageView!
+    @IBOutlet weak var downloadButton: UIButton!
 
     func configure(_ courseItem: CourseItem) {
         readStateView.backgroundColor = Brand.TintColor
@@ -20,6 +21,11 @@ class CourseItemCell : UITableViewCell {
 
         if let iconName = courseItem.iconName {
             iconView.image = UIImage(named: "item-\(iconName)-28")
+        }
+        if courseItem.iconName == "video" {
+            downloadButton.isHidden = false
+        }else{
+            downloadButton.isHidden = true
         }
         readStateView.isHidden = courseItem.visited ?? true
     }
