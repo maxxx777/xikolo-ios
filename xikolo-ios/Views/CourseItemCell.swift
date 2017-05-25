@@ -18,7 +18,7 @@ class CourseItemCell : UITableViewCell {
 
     @IBAction func downloadButtonTrigger(_ sender: NFDownloadButton) {
         // here we should trigger the download and take care that we receive the download progress
-        sender.downloadPercent = 0.2
+        sender.downloadPercent = 1.0
     }
     
     func configure(_ courseItem: CourseItem) {
