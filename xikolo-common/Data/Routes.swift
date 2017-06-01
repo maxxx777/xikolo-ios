@@ -17,6 +17,7 @@ struct Routes {
     static let AUTHENTICATE_API_URL = API_URL + "/authenticate/"
     static let MY_PROFILE_API_URL = API_URL + "/users/me"
     static let ENROLLMENTS_API_URL = API_URL + "/users/me/enrollments/"
+    static let DOCUMENTS_API_URL = API_URL + "/documents"
 
     static let COURSES_URL = Brand.BaseURL + "/courses/"
     static let DASHBOARD_URL = Brand.BaseURL + "/dashboard"

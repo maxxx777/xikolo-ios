@@ -270,6 +270,7 @@
                         <segue destination="FSh-io-GSz" kind="relationship" relationship="viewControllers" id="D1p-Qo-3Vf"/>
                         <segue destination="XcO-jX-Il5" kind="relationship" relationship="viewControllers" id="QjD-Fo-UOy"/>
                         <segue destination="qPo-RG-mu4" kind="relationship" relationship="viewControllers" id="6nQ-Pt-7ah"/>
+                        <segue destination="0Df-3X-r8v" kind="relationship" relationship="viewControllers" id="Jdf-zo-uUa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gj-yV-bCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -303,7 +304,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAB-Wq-oPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717" y="582"/>
+            <point key="canvasLocation" x="717" y="550"/>
         </scene>
         <!--NewsNavigationController-->
         <scene sceneID="ybp-Ei-DDc">
@@ -313,7 +314,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mY7-MI-Wek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717.5" y="713"/>
+            <point key="canvasLocation" x="703" y="658"/>
         </scene>
         <!--DashboardNavigationController-->
         <scene sceneID="wQX-9l-R5D">
@@ -323,7 +324,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jy-pZ-fyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717" y="427"/>
+            <point key="canvasLocation" x="730" y="425"/>
         </scene>
         <!--ProfileNavigationController-->
         <scene sceneID="w9f-ev-CqT">
@@ -333,7 +334,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDU-l6-XvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717" y="862"/>
+            <point key="canvasLocation" x="709" y="769"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="vfO-fl-Kgz">
@@ -401,7 +402,7 @@ Check out this app, come back regularly, and get engaged in the OpenWHO communit
                 <navigationController storyboardIdentifier="WelcomeNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="4Ku-Sm-3si" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WQE-8V-VTk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WQE-8V-VTk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -413,6 +414,16 @@ Check out this app, come back regularly, and get engaged in the OpenWHO communit
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E0i-jI-Ee6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="858" y="1248"/>
+        </scene>
+        <!--DocumentsNavigationController-->
+        <scene sceneID="nwm-zF-iTa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="DocumentsNavigationController" storyboardName="DocumentsNavigationController" id="0Df-3X-r8v" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jfa-CR-RRC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JUi-K8-T8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="873"/>
         </scene>
     </scenes>
     <resources>
