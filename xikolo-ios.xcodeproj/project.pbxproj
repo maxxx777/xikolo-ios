@@ -504,6 +504,8 @@
 		3DD110B11F06351D00C1060A /* logo_moochaus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD110AF1F06351D00C1060A /* logo_moochaus.png */; };
 		3DD110B21F06351D00C1060A /* logo_moochaus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD110AF1F06351D00C1060A /* logo_moochaus.png */; };
 		3DD110B31F06351D00C1060A /* logo_moochaus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD110AF1F06351D00C1060A /* logo_moochaus.png */; };
+		3DF07F161F39962E0062E385 /* openHPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF07F151F39962E0062E385 /* openHPIUITests.swift */; };
+		3DF07F1F1F39BA8E0062E385 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF07F1E1F39BA8E0062E385 /* TestHelper.swift */; };
 		4E2B80A81DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */; };
 		4E2B80A91DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */; };
 		4E2B80AB1DDDE43D0058552D /* CourseDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B80AA1DDDE43D0058552D /* CourseDateCell.swift */; };
@@ -1788,6 +1790,10 @@
 		3D6F12EC1F2914BD00D5DFE8 /* SearchHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHelper.swift; sourceTree = "<group>"; };
 		3D6F12F31F2A0E3F00D5DFE8 /* SyncHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncHelper.swift; sourceTree = "<group>"; };
 		3DD110AF1F06351D00C1060A /* logo_moochaus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_moochaus.png; sourceTree = "<group>"; };
+		3DF07F131F39962E0062E385 /* openHPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openHPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF07F151F39962E0062E385 /* openHPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openHPIUITests.swift; sourceTree = "<group>"; };
+		3DF07F171F39962E0062E385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF07F1E1F39BA8E0062E385 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 		3EFE4C53E4D0BE59A3B7D3DC /* Pods-openHPI-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openHPI-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openHPI-iOS/Pods-openHPI-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4571137763FE2C2E161926A3 /* Pods_openSAP_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openSAP_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2B80A71DDDBCAF0058552D /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
@@ -2013,6 +2019,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F9BAA3514FE7C9C3F37B2BC /* Pods_openHPI_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF07F101F39962E0062E385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2423,6 +2436,17 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		3DF07F141F39962E0062E385 /* openHPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF07F151F39962E0062E385 /* openHPIUITests.swift */,
+				3DF07F171F39962E0062E385 /* Info.plist */,
+				3DF07F1E1F39BA8E0062E385 /* TestHelper.swift */,
+				3DF07F201F39BDFE0062E385 /* accounts.plist */,
+			);
+			path = openHPIUITests;
+			sourceTree = "<group>";
+		};
 		5019A75F1F20ABF3008C8138 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -2484,6 +2508,7 @@
 		A90587B21B3BFC130095DB89 = {
 			isa = PBXGroup;
 			children = (
+				3DF07F141F39962E0062E385 /* openHPIUITests */,
 				FF91D61F2A79812A5E7FB607 /* Frameworks */,
 				24CB7E521CC6830000960269 /* xikolo-common */,
 				A90587BD1B3BFC130095DB89 /* xikolo-ios */,
@@ -2508,6 +2533,7 @@
 				709C93031EF0952500F8F045 /* moocHOUSE.app */,
 				709C932C1EF0996C00F8F045 /* moocHOUSE.app */,
 				709C933F1EF099A900F8F045 /* moocHOUSE-tvOS-TopShelf.appex */,
+				3DF07F131F39962E0062E385 /* openHPIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2882,6 +2908,24 @@
 			productName = "xikolo-tvos";
 			productReference = 24CB7E341CC678A000960269 /* openHPI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3DF07F121F39962E0062E385 /* openHPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF07F1C1F39962E0062E385 /* Build configuration list for PBXNativeTarget "openHPIUITests" */;
+			buildPhases = (
+				3DF07F0F1F39962E0062E385 /* Sources */,
+				3DF07F101F39962E0062E385 /* Frameworks */,
+				3DF07F111F39962E0062E385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF07F191F39962E0062E385 /* PBXTargetDependency */,
+			);
+			name = openHPIUITests;
+			productName = openHPIUITests;
+			productReference = 3DF07F131F39962E0062E385 /* openHPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		709C93021EF0952500F8F045 /* moocHOUSE-iOS */ = {
 			isa = PBXNativeTarget;
