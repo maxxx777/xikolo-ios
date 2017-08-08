@@ -49,4 +49,26 @@ class openHPIUITests: XCTestCase {
         app.navigationBars["openHPI.CourseListView"].buttons["Find Courses"].tap()
     }
     
+
+    func testCourseDetails() {
+        let app = XCUIApplication()
+        TestHelper.login()
+        app.tabBars.buttons["Courses"].tap()
+        //app.navigationBars["openHPI.CourseListView"].buttons["Find Courses"].tap()
+        app.navigationBars["openHPI.CourseListView"].buttons["My Courses"].tap()
+        app.staticTexts["Embedded Smart Home"].tap()
+    
+        let tablesQuery = app.tables
+        tablesQuery.children(matching: .cell).element(boundBy: 0).staticTexts["Materialien"].tap()
+        app.navigationBars["openHPI.RichtextView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+        tablesQuery.staticTexts["W0-0 Kursübersicht"].tap()
+        app.scrollViews.otherElements.buttons["open slides"].tap()
+
+        let backButton = app.navigationBars.children(matching: .button).matching(identifier: "Back").element(boundBy: 0)
+        backButton.tap()
+        backButton.tap()
+        backButton.tap()
+        
+    }
+    
 }
