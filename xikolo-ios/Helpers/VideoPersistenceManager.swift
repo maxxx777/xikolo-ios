@@ -10,6 +10,30 @@ import Foundation
 import AVFoundation
 import CoreData
 
+enum VideoPersistenceQuality: Int, CustomStringConvertible {
+    case low = 200000
+    case medium = 400000
+    case high = 5000000
+    case best = 10000000
+
+    static var orderedValues: [VideoPersistenceQuality] {
+        return [.low, .medium, .high, .best]
+    }
+
+    var description: String {
+        switch self {
+        case .low:
+            return NSLocalizedString("Low", comment: "video download quality")
+        case .medium:
+            return NSLocalizedString("Medium", comment: "video download quality")
+        case .high:
+            return NSLocalizedString("High", comment: "video download quality")
+        case .best:
+            return NSLocalizedString("Best", comment: "video download quality")
+        }
+    }
+
+}
 
 class VideoPersistenceManager: NSObject {
 
@@ -59,34 +83,17 @@ class VideoPersistenceManager: NSObject {
     }
 
     func downloadStream(for video: Video) {
-        guard let url = video.hlsURL else {
-            return
-        }
+        guard let url = video.hlsURL else { return }
 
-        if url.host == "player.vimeo.com" {
-            // !!! Important !!!
-            // When trying to download HLS videos, vimeo redirects to one of its CDN servers. The AVURLAssetDownload
-            // can not handle such a redirect, which will result in a local video file that is not offline playable.
-            // Therefore, we need to retrieve the redirect url before starting the video download.
-            NetworkHelper.resolvedRedirectURL(for: url).onSuccess { redirectUrl in
-                self.startDownload(of: video, withURL: redirectUrl)
-            }.onFailure { _ in
-                print("Failed to resolve redirect url")
-            }
-        } else {
-            self.startDownload(of: video, withURL: url)
-        }
-    }
-
-    private func startDownload(of video: Video, withURL url: URL) {
         let assetTitleCourse = video.item?.section?.course?.slug ?? "Unknown course"
         let assetTitleItem = video.item?.title ?? "Untitled video"
-        let assetTitle = "\(assetTitleItem) (\(assetTitleCourse))"
+        let assetTitle = "\(assetTitleItem) (\(assetTitleCourse))".safeAsciiString() ?? "Untitled video"
+        let options = [AVAssetDownloadTaskMinimumRequiredMediaBitrateKey: UserDefaults.standard.videoPersistenceQuality.rawValue]
 
         guard let task = self.assetDownloadURLSession.makeAssetDownloadTask(asset: AVURLAsset(url: url),
                                                                             assetTitle: assetTitle,
                                                                             assetArtworkData: video.posterImageData,
-                                                                            options: [AVAssetDownloadTaskMinimumRequiredMediaBitrateKey: 750000]) else { return }
+                                                                            options: options) else { return }
 
         task.taskDescription = video.id
 
