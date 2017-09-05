@@ -594,6 +594,18 @@
 		50E16D001F47014000D67632 /* CustomUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E16CF61F47014000D67632 /* CustomUserDefaults.swift */; };
 		50E16D011F47014000D67632 /* CustomUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E16CF61F47014000D67632 /* CustomUserDefaults.swift */; };
 		50E16D021F47014000D67632 /* CustomUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E16CF61F47014000D67632 /* CustomUserDefaults.swift */; };
+		50ED3C4F1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C501F4AE7FC00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C511F4AE7FD00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C521F4AE7FD00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C531F4AE7FE00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C541F4AE7FE00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C551F4AE7FF00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C561F4AE7FF00CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C571F4AE80000CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C581F4AE80100CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C591F4AE80200CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
+		50ED3C5A1F4AE80200CD8466 /* UIApplication+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */; };
 		50F668971F3849C300ACC26A /* SyncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F12F31F2A0E3F00D5DFE8 /* SyncHelper.swift */; };
 		50F668981F3857B800ACC26A /* SearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F12EC1F2914BD00D5DFE8 /* SearchHelper.swift */; };
 		50F668991F3857B900ACC26A /* SearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F12EC1F2914BD00D5DFE8 /* SearchHelper.swift */; };
@@ -1836,6 +1848,7 @@
 		50E16CF11F46E28200D67632 /* VideoQualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoQualityViewController.swift; sourceTree = "<group>"; };
 		50E16CF61F47014000D67632 /* CustomUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUserDefaults.swift; sourceTree = "<group>"; };
 		50E16D041F47070A00D67632 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TabSettings.strings; sourceTree = "<group>"; };
+		50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+DeviceInfo.swift"; sourceTree = "<group>"; };
 		50F720271F28D72D00779995 /* VideoPersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPersistenceManager.swift; sourceTree = "<group>"; };
 		50F7202C1F28E29B00779995 /* Video+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Video+Download.swift"; path = "Data/Model/Video+Download.swift"; sourceTree = "<group>"; };
 		5EBD80F9E79B40545F1FD63D /* Pods-moocHOUSE-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moocHOUSE-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moocHOUSE-tvOS/Pods-moocHOUSE-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2455,6 +2468,7 @@
 				249347FC1D8C4B32006D4F2C /* UIViewController+ChildViewController.swift */,
 				7057FFD31EC9D8CE00FF759B /* String+regex.swift */,
 				503585041F3AF6AA002A666C /* String+ascii.swift */,
+				50ED3C4E1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -3107,7 +3121,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -3118,7 +3132,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -3143,7 +3157,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -3154,7 +3168,7 @@
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -3164,7 +3178,7 @@
 					709C93021EF0952500F8F045 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = WP53SSE8S6;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
 								enabled = 1;
@@ -3190,7 +3204,7 @@
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -3204,7 +3218,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -3218,7 +3232,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -3229,7 +3243,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WP53SSE8S6;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -3474,13 +3488,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moocHOUSE-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		00C7F73CE49898765A7641A6 /* [CP] Copy Pods Resources */ = {
@@ -3519,9 +3536,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openWHO-tvOS/Pods-openWHO-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-tvOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-tvOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-tvOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-tvOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-tvOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3549,13 +3585,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openSAP-tvOS-TopShelf-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1F57239A56A003CFD9A17C49 /* [CP] Copy Pods Resources */ = {
@@ -3579,9 +3618,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openSAP-tvOS/Pods-openSAP-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-tvOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-tvOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-tvOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-tvOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-tvOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3594,9 +3652,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openHPI-iOS/Pods-openHPI-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-iOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-iOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/DownloadButton/DownloadButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-iOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-iOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DownloadButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3609,13 +3702,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openHPI-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		57CD7946E155D5BFDF1EE5AC /* [CP] Copy Pods Resources */ = {
@@ -3639,13 +3735,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openSAP-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A499A68B14F5BD8C4A6BB03 /* [CP] Embed Pods Frameworks */ = {
@@ -3654,9 +3753,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openHPI-tvOS/Pods-openHPI-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-tvOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-tvOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-tvOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-tvOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-tvOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3669,9 +3787,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-moocHOUSE-iOS/Pods-moocHOUSE-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-iOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-iOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/DownloadButton/DownloadButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-iOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-iOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DownloadButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3684,13 +3837,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openHPI-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		747AA6185FE4F61F6B113EC5 /* [CP] Copy Pods Resources */ = {
@@ -3714,13 +3870,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openSAP-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7D58F7DE5603835E5B6E3EA8 /* [CP] Copy Pods Resources */ = {
@@ -3744,13 +3903,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openHPI-tvOS-TopShelf-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		874C569D5F1A796E7F7309C1 /* [CP] Copy Pods Resources */ = {
@@ -3774,13 +3936,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openWHO-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99A701B933A853760C844333 /* [CP] Copy Pods Resources */ = {
@@ -3804,13 +3969,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openWHO-tvOS-TopShelf-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A37F6E838D362B6B9C45D6FD /* [CP] Embed Pods Frameworks */ = {
@@ -3819,9 +3987,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openSAP-iOS/Pods-openSAP-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-iOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-iOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/DownloadButton/DownloadButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-iOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-iOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DownloadButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3834,9 +4037,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-moocHOUSE-tvOS/Pods-moocHOUSE-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-tvOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-tvOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-tvOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-tvOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-tvOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3864,9 +4086,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openWHO-iOS/Pods-openWHO-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures-iOS/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Down-iOS/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/DownloadButton/DownloadButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-iOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spine-iOS/Spine.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DownloadButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3894,13 +4151,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moocHOUSE-tvOS-TopShelf-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7F19E54C715B47DA251D1DA /* [CP] Copy Pods Resources */ = {
@@ -3924,13 +4184,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openWHO-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB3D5910F8651D97CBDBD3DC /* [CP] Check Pods Manifest.lock */ = {
@@ -3939,13 +4202,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moocHOUSE-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3989,6 +4255,7 @@
 				2490C4EB1D216C9500F42949 /* CourseHelper.swift in Sources */,
 				4E6AB1F41DD36AB500B048DB /* CourseDate+CoreDataProperties.swift in Sources */,
 				2474C8881D86FE33009BDB94 /* TrackingEventVerb.swift in Sources */,
+				50ED3C511F4AE7FD00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				2474C8681D86FE07009BDB94 /* CourseSection.swift in Sources */,
 				2474C88A1D86FE36009BDB94 /* TrackingEventResource.swift in Sources */,
 				2474C8701D86FE12009BDB94 /* Quiz.swift in Sources */,
@@ -4163,6 +4430,7 @@
 				5019A7641F20ACE6008C8138 /* Video+DetailedContent.swift in Sources */,
 				AB4F22721D7F0E4100ED0BF1 /* PlatformEventsTableViewController.swift in Sources */,
 				24BA408F1D3F9A9600E38C2C /* CourseItem+CoreDataProperties.swift in Sources */,
+				50ED3C521F4AE7FD00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				24BA40DC1D3F9AFE00E38C2C /* Error.swift in Sources */,
 				50F7202E1F28E29B00779995 /* Video+Download.swift in Sources */,
 				24BA40951D3F9A9F00E38C2C /* CourseSection.swift in Sources */,
@@ -4310,6 +4578,7 @@
 				ABFCF7781E81EEC40043C7B7 /* UserProfile+CoreDataProperties.swift in Sources */,
 				243CE4771D6B1639007C59B6 /* UnsupportedQuestionViewController.swift in Sources */,
 				24BA40961D3F9A9F00E38C2C /* CourseSection.swift in Sources */,
+				50ED3C531F4AE7FE00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				503585081F3B06E0002A666C /* String+ascii.swift in Sources */,
 				4E6AB1F61DD36AB500B048DB /* CourseDate+CoreDataProperties.swift in Sources */,
 				24E3DD211D6211A100297118 /* QuestionIndicatorView.swift in Sources */,
@@ -4372,6 +4641,7 @@
 				4E6AB1F71DD36AB500B048DB /* CourseDate+CoreDataProperties.swift in Sources */,
 				2474C8891D86FE33009BDB94 /* TrackingEventVerb.swift in Sources */,
 				2474C8691D86FE08009BDB94 /* CourseSection.swift in Sources */,
+				50ED3C541F4AE7FE00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				2474C88B1D86FE36009BDB94 /* TrackingEventResource.swift in Sources */,
 				24BA408E1D3F9A9400E38C2C /* Course.swift in Sources */,
 				2474C8711D86FE13009BDB94 /* Quiz.swift in Sources */,
@@ -4536,6 +4806,7 @@
 				ABFCF7761E81EEC40043C7B7 /* UserProfile+CoreDataProperties.swift in Sources */,
 				243CE4761D6B1639007C59B6 /* UnsupportedQuestionViewController.swift in Sources */,
 				2448A9D71CDA445D009A1AEA /* CourseSection+CoreDataProperties.swift in Sources */,
+				50ED3C501F4AE7FC00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				503585071F3B06DD002A666C /* String+ascii.swift in Sources */,
 				4E6AB1F31DD36AB500B048DB /* CourseDate+CoreDataProperties.swift in Sources */,
 				24E3DD201D6211A100297118 /* QuestionIndicatorView.swift in Sources */,
@@ -4678,6 +4949,7 @@
 				70D1EB391EF12E280088C0FF /* NotificationKeys.swift in Sources */,
 				70D1EAED1EF0AC9D0088C0FF /* CourseActivityViewController.swift in Sources */,
 				70D1EB281EF12E0F0088C0FF /* MarkdownHelper.swift in Sources */,
+				50ED3C581F4AE80100CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				70D1EB111EF12DF00088C0FF /* Brand+generic.swift in Sources */,
 				70D1EAF21EF0ACAD0088C0FF /* DropdownViewController.swift in Sources */,
 				70D1EAF81EF0ACBC0088C0FF /* (null) in Sources */,
@@ -4746,6 +5018,7 @@
 				70D1EB231EF12E040088C0FF /* AbstractItemRichtextViewController.swift in Sources */,
 				70D1EB561EF134410088C0FF /* QuestionIndicatorListView.swift in Sources */,
 				70D1EAA11EF0AB850088C0FF /* QuizProvider.swift in Sources */,
+				50ED3C5A1F4AE80200CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				70D1EA781EF0AB4B0088C0FF /* TrackingEventVerb.swift in Sources */,
 				70D1EA081EF0AABC0088C0FF /* Channel.swift in Sources */,
 				70D1EA3F1EF0AB040088C0FF /* LTIExercise+CoreDataProperties.swift in Sources */,
@@ -4901,6 +5174,7 @@
 				70D1EA491EF0AB100088C0FF /* Announcement.swift in Sources */,
 				70D1EA121EF0AACF0088C0FF /* Course+CoreDataProperties.swift in Sources */,
 				70D1EB131EF12DF10088C0FF /* Brand+generic.swift in Sources */,
+				50ED3C591F4AE80200CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				70D1EA2A1EF0AAE90088C0FF /* CourseSection+CoreDataProperties.swift in Sources */,
 				70D1EAAB1EF0AB960088C0FF /* CoreDataHelper.swift in Sources */,
 				70D1E9EE1EF0AA840088C0FF /* AVMetadataItem+convenience.swift in Sources */,
@@ -5078,6 +5352,7 @@
 				50F7202D1F28E29B00779995 /* Video+Download.swift in Sources */,
 				F852253A1B4D27D700C9BF56 /* SettingsViewController.swift in Sources */,
 				2490C4FD1D2175BA00F42949 /* XikoloURL.swift in Sources */,
+				50ED3C4F1F4AE1C300CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				AB34C9BB1E919D9800CAD703 /* UIApplication+VersionInfo.swift in Sources */,
 				24D48E1B1CCA551E00E8051E /* CourseProvider.swift in Sources */,
 				7057FFD41EC9D8CE00FF759B /* String+regex.swift in Sources */,
@@ -5232,6 +5507,7 @@
 				5019A7651F20ACE6008C8138 /* Video+DetailedContent.swift in Sources */,
 				ABA0F0C11DF8CE2E0001D88D /* SpineModelHelper.swift in Sources */,
 				ABA0F0C41DF8CE320001D88D /* NetworkHelper.swift in Sources */,
+				50ED3C551F4AE7FF00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				50F7202F1F28E29B00779995 /* Video+Download.swift in Sources */,
 				AB34C9BD1E919D9800CAD703 /* UIApplication+VersionInfo.swift in Sources */,
 				7057FFD61EC9D8CE00FF759B /* String+regex.swift in Sources */,
@@ -5379,6 +5655,7 @@
 				ABA0F03A1DF8CD190001D88D /* NSOperatingSystemVersion+string.swift in Sources */,
 				ABB49A8F1DF8D6D8004C59B6 /* PlatformEventHelper.swift in Sources */,
 				ABA0F0421DF8CD280001D88D /* Channel+CoreDataProperties.swift in Sources */,
+				50ED3C561F4AE7FF00CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				5035850A1F3B06E5002A666C /* String+ascii.swift in Sources */,
 				ABA0F0701DF8CDB00001D88D /* Announcement+CoreDataProperties.swift in Sources */,
 				ABA0F0821DF8CDCE0001D88D /* QuizQuestion+CoreDataProperties.swift in Sources */,
@@ -5469,6 +5746,7 @@
 				ABA0F04F1DF8CD800001D88D /* Enrollment+CoreDataProperties.swift in Sources */,
 				70D1EB381EF12E270088C0FF /* NotificationKeys.swift in Sources */,
 				70F456471F01297100A2C6B7 /* User+CoreDataProperties.swift in Sources */,
+				50ED3C571F4AE80000CD8466 /* UIApplication+DeviceInfo.swift in Sources */,
 				70F4564B1F01297E00A2C6B7 /* UserHelper.swift in Sources */,
 				24C4EF8B1E3594BD00200144 /* QuizSubmission.swift in Sources */,
 				AB4A01A21E7EA12C005CD595 /* EnrollmentVisits.swift in Sources */,
@@ -5644,14 +5922,15 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openHPI/xikolo-tvos.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/TopShelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openhpi.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c3ff7e2c-efe2-481a-8105-ef956b012b74";
-				PROVISIONING_PROFILE_SPECIFIER = "openHPI-tvOS-TopShelf-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -5665,15 +5944,16 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openHPI/xikolo-tvos.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/TopShelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openhpi.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7401e642-bdba-4fa7-9b4f-0f8721b0208e";
-				PROVISIONING_PROFILE_SPECIFIER = "openHPI-tvOS-TopShelf-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -5689,6 +5969,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/openSAP/xikolo-ios.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "xikolo-ios/Branding/openSAP/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -5696,8 +5977,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DOPENSAP";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.opensap;
 				PRODUCT_NAME = openSAP;
-				PROVISIONING_PROFILE = "295257d4-e8aa-4a5a-b9c6-97309956f660";
-				PROVISIONING_PROFILE_SPECIFIER = "openSAP-iOS-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -5710,6 +5991,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/openSAP/xikolo-ios.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "xikolo-ios/Branding/openSAP/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -5717,8 +5999,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DOPENSAP";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.opensap;
 				PRODUCT_NAME = openSAP;
-				PROVISIONING_PROFILE = "295257d4-e8aa-4a5a-b9c6-97309956f660";
-				PROVISIONING_PROFILE_SPECIFIER = "openSAP-iOS-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -5731,13 +6013,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openSAP/xikolo-tvos.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.opensap;
 				PRODUCT_NAME = openSAP;
-				PROVISIONING_PROFILE = "5efae391-9142-449c-9751-b44483c8822a";
-				PROVISIONING_PROFILE_SPECIFIER = "openSAP-tvOS-dev";
+				PROVISIONING_PROFILE = "79e3f140-8905-4197-85b7-46205ff72ad2";
+				PROVISIONING_PROFILE_SPECIFIER = "openSAP-tvOS-dist";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -5754,12 +6038,13 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openSAP/xikolo-tvos.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.opensap;
 				PRODUCT_NAME = openSAP;
-				PROVISIONING_PROFILE = "9a8cf0d1-78b8-4fa1-b9b3-00ba6d3796c2";
+				PROVISIONING_PROFILE = "79e3f140-8905-4197-85b7-46205ff72ad2";
 				PROVISIONING_PROFILE_SPECIFIER = "openSAP-tvOS-dist";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -5774,14 +6059,16 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openSAP/xikolo-tvos.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/TopShelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.opensap.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5a76d188-d040-478a-b852-3c4f1c7bdad2";
-				PROVISIONING_PROFILE_SPECIFIER = "openSAP-tvOS-TopShelf-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -5795,15 +6082,16 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openSAP/xikolo-tvos.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/TopShelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.opensap.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "93baf144-91d1-4793-a0b8-6328934dd8c5";
-				PROVISIONING_PROFILE_SPECIFIER = "openSAP-tvOS-TopShelf-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -5820,13 +6108,14 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openHPI/xikolo-tvos.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "xikolo-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openhpi;
 				PRODUCT_NAME = openHPI;
-				PROVISIONING_PROFILE = "18fd0933-1fc2-4a2d-81f1-e5701a8d0f69";
-				PROVISIONING_PROFILE_SPECIFIER = "openHPI-tvOS-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -5842,14 +6131,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openHPI/xikolo-tvos.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "xikolo-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openhpi;
 				PRODUCT_NAME = openHPI;
-				PROVISIONING_PROFILE = "78d0d102-158f-4537-adee-dcc103fdc58d";
-				PROVISIONING_PROFILE_SPECIFIER = "openHPI-tvOS-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -5861,20 +6151,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E388554E08BE40160B5B382 /* Pods-moocHOUSE-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/moocHOUSE/xikolo-ios.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "xikolo-ios/Branding/moocHOUSE/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.moochouse;
 				PRODUCT_NAME = moocHOUSE;
-				PROVISIONING_PROFILE = "7ca93649-9f7f-4990-afde-5f60ad938d4f";
-				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 			};
@@ -5884,20 +6176,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD83FF0891F99C8516BAD882 /* Pods-moocHOUSE-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/moocHOUSE/xikolo-ios.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "xikolo-ios/Branding/moocHOUSE/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.moochouse;
 				PRODUCT_NAME = moocHOUSE;
-				PROVISIONING_PROFILE = "7ca93649-9f7f-4990-afde-5f60ad938d4f";
-				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -5906,7 +6200,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5EBD80F9E79B40545F1FD63D /* Pods-moocHOUSE-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -5930,7 +6224,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5C314EF68CBCFA95F65C2ED /* Pods-moocHOUSE-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6091,7 +6385,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/openHPI/xikolo-ios.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "xikolo-ios/Branding/openHPI/Info.plist";
@@ -6100,8 +6395,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DOPENHPI";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openhpi;
 				PRODUCT_NAME = openHPI;
-				PROVISIONING_PROFILE = "c39831e9-8820-42f7-b66d-9371be9f9705";
-				PROVISIONING_PROFILE_SPECIFIER = "openHPI-iOS-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "xikolo-ios/xikolo-ios-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -6114,7 +6409,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/openHPI/xikolo-ios.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "xikolo-ios/Branding/openHPI/Info.plist";
@@ -6123,8 +6419,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DOPENHPI";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openhpi;
 				PRODUCT_NAME = openHPI;
-				PROVISIONING_PROFILE = "c39831e9-8820-42f7-b66d-9371be9f9705";
-				PROVISIONING_PROFILE_SPECIFIER = "openHPI-iOS-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "xikolo-ios/xikolo-ios-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -6138,6 +6434,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/openWHO/xikolo-ios.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6190,8 +6487,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DOPENWHO";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openwho;
 				PRODUCT_NAME = openWHO;
-				PROVISIONING_PROFILE = "1f92abdc-7825-4a6c-88c4-4d6070c284a6";
-				PROVISIONING_PROFILE_SPECIFIER = "openWHO-iOS-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -6203,7 +6500,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-ios/Branding/openWHO/xikolo-ios.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6256,8 +6554,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DOPENWHO";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openwho;
 				PRODUCT_NAME = openWHO;
-				PROVISIONING_PROFILE = "e5d84a13-9388-43b9-88dc-742f5e3c9c0f";
-				PROVISIONING_PROFILE_SPECIFIER = "openWHO-iOS-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -6270,13 +6568,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openWHO/xikolo-tvos.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openwho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2353cf76-47ab-4b2c-afd8-ad3d1f7417f8";
-				PROVISIONING_PROFILE_SPECIFIER = "openWHO-tvOS-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -6292,14 +6592,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openWHO/xikolo-tvos.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openwho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "671327d6-c734-4909-be3a-0efdb478257e";
-				PROVISIONING_PROFILE_SPECIFIER = "openWHO-tvOS-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -6313,14 +6614,16 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openWHO/xikolo-tvos.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/TopShelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openwho.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c10f2df4-a272-4c3c-a096-6d9f41ec6563";
-				PROVISIONING_PROFILE_SPECIFIER = "openWHO-tvOS-TopShelf-dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -6334,15 +6637,16 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = "xikolo-tvos/Branding/openWHO/xikolo-tvos.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WP53SSE8S6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xikolo-tvos/TopShelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.xikolo.openwho.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "48522c80-c766-4931-a344-90dbb5fdafc4";
-				PROVISIONING_PROFILE_SPECIFIER = "openWHO-tvOS-TopShelf-dist";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
