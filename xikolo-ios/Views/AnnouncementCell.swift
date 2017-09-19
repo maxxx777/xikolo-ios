@@ -25,7 +25,7 @@ class AnnouncementCell : UITableViewCell {
         descriptionView.textContainer.lineBreakMode = .byTruncatingTail
 
         if let date = announcement.published_at {
-            let dateFormatter = DateFormatter()
+            let dateFormatter = LocalizedDateFormatterFactory.newDateFormatter()
             dateFormatter.dateStyle = .medium
             dateFormatter.timeStyle = .none
             dateView.text = dateFormatter.string(from: date)

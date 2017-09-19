@@ -42,9 +42,8 @@ class AnnouncementViewController : UIViewController {
 
     private func updateView() {
         self.titleView.text = self.announcement.title
-
-        if let date = self.announcement.published_at {
-            let dateFormatter = DateFormatter()
+        if let date = announcement.published_at {
+            let dateFormatter = LocalizedDateFormatterFactory.newDateFormatter()
             dateFormatter.dateStyle = .medium
             dateFormatter.timeStyle = .none
             self.dateView.text = dateFormatter.string(from: date)

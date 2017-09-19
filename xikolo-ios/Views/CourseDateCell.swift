@@ -30,7 +30,7 @@ class CourseDateCell : UITableViewCell {
         }
 
         if let date = courseDate.date {
-            let dateFormatter = DateFormatter()
+            let dateFormatter = LocalizedDateFormatterFactory.newDateFormatter()
             dateFormatter.dateStyle = .medium
             dateFormatter.timeStyle = .none
 
