@@ -38,7 +38,7 @@ class AnnouncementCell : UITableViewCell {
             let markDown = try? MarkdownHelper.parse(newsText) // TODO: Error handling
             self.descriptionView.attributedText = markDown
         }
-        readStateView.isHidden = announcement.visited ?? true
+        readStateView.isHidden = announcement.visited && UserProfileHelper.isLoggedIn()
 
         roundedTagBackgroundView.isHidden = announcement.course == nil
         courseView.text = announcement.course?.title

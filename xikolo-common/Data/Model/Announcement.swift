@@ -12,9 +12,9 @@ import Spine
 
 class Announcement : BaseModel {
 
-    var visited: Bool? {
+    var visited: Bool {
         get {
-            return visited_int?.boolValue
+            return visited_int?.boolValue ?? true
         }
         set(new_has_visited) {
             visited_int = new_has_visited as NSNumber?

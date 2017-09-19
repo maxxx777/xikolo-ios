@@ -105,7 +105,7 @@ class AppDelegate : AbstractAppDelegate {
             if let rootViewController = self.window?.rootViewController as? UITabBarController {
                 if let tabArray = rootViewController.tabBar.items {
                     let tabItem = tabArray[2]
-                    let unreadAnnouncements = announcements.filter({ !($0.visited ?? true ) }) // we get nil if the user is not logged in. In this case we don't want to show the badge
+                    let unreadAnnouncements = announcements.filter({ !($0.visited ) })
                     if unreadAnnouncements.count > 0 {
                         tabItem.badgeValue = String(unreadAnnouncements.count)
                     } else {
